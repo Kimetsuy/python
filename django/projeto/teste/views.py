@@ -3,4 +3,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index_home(request):
-    return HttpResponse("Lorem ipsum dolor sit amet")
+    return HttpResponse('Olá, mundo!')
+def pedroassad(request):
+    return render(request, 'ipsum/teste.html')
